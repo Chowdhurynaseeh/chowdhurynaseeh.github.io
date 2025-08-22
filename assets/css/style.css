@@ -474,6 +474,11 @@ section .container {
   background-color: #1c7d32;
 }
 
+.carousel-img {
+    height: 100%;        /* adjust as you like */
+    width: 100%;
+    object-fit: cover;    /* crop image to fit without stretching */
+  }
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
