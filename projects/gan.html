@@ -3,9 +3,15 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Rice grain classification</title>
-    <meta content="" name="descriptison" />
-    <meta content="" name="keywords" />
+    <title>Rice variety classification (Springer Nature)</title>
+    <meta
+      content="Image-based classification of Bangladeshi rice varieties using deep convolutional neural networks (VGG16/VGG19/ResNet50/Xception/DenseNet + custom CNN)."
+      name="description"
+    />
+    <meta
+      content="Rice classification, Bangladesh, CNN, VGG19, Deep Learning, Computer Vision, Springer Nature"
+      name="keywords"
+    />
 
     <!-- Favicons -->
     <link href="../assets/img/favicon.png" rel="icon" />
@@ -37,7 +43,6 @@
     <!-- Template Main CSS File -->
     <link href="../assets/css/style.css" rel="stylesheet" />
 
-
     <!-- =======================================================
   * Template Name: Personal - v2.2.0
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
@@ -46,7 +51,7 @@
   ======================================================== -->
   </head>
 
-  <body data-gr-c-s-loaded="true">
+  <body>
     <!-- ======= Portfolio Details ======= -->
     <main id="main">
       <div id="portfolio-details" class="portfolio-details">
@@ -54,25 +59,88 @@
           <div class="row">
             <div class="col-lg-12 portfolio-info">
               <br />
+
               <h2 style="color: #12d640">
-                A Comprehensive Approach to Classify Bangladeshi Rice Grain Types Using Deep CNN
-Architectures.
+                Image-based classification of Bangladeshi rice varieties using
+                deep convolutional neural networks
               </h2>
+
               <ul>
                 <li>
-                  <strong>Tech Stack</strong>: Python, TensorFlow, PyTorch, 
-                  OpenCV, Keras, Numpy, Matplotlib, scikit-learn
+                  <strong>Publisher</strong>: Springer Nature (Open Access)
                 </li>
                 <li>
-                  <strong ><a href="https://docs.google.com/presentation/d/1pezYtrZGtmKg3AyKyGF7yDkL_zfEe6gP/edit#slide=id.p1" target="_blank">Defense Presentation Slide </a> </strong>
+                  <strong>Journal</strong>: Agricultural Products Processing and
+                  Storage (Vol. 2, Article 26, 2026)
+                </li>
+                <li>
+                  <strong>Rice Varieties</strong>: Basmati, Chinigura, Jirashail,
+                  Kataribhog, Paijam
+                </li>
+                <li>
+                  <strong>Models</strong>: VGG16, VGG19, ResNet50, Xception,
+                  DenseNet + custom CNN (BDriceNetworkV0)
+                </li>
+                <li>
+                  <strong>Tech Stack</strong>: Python, TensorFlow/Keras, PyTorch,
+                  OpenCV, NumPy, Matplotlib, scikit-learn
+                </li>
+                <li>
+                  <strong>DOI</strong>:
+                  <a
+                    href="https://doi.org/10.1007/s44462-026-00061-9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >10.1007/s44462-026-00061-9</a
+                  >
+                </li>
+                <li>
+                  <strong>Paper (PDF)</strong>:
+                  <a
+                    href="https://link.springer.com/content/pdf/10.1007/s44462-026-00061-9.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Download</a
+                  >
                 </li>
               </ul>
+
               <p>
-                During my undergraduate thesis work, I worked on "Bangladeshi Rice Grain Classification and Quality Grading Using Computer Vision," where I trained and evaluated various deep learning models, including VGG-16, VGG-19 ResNet, Inception, MobileNet, and DenseNet, achieving the best results with VGG-16, almost 99.01% testing accuracy.
+                In this Springer Nature open-access research article, we
+                benchmarked deep convolutional neural networks for
+                fine-grained classification of 5 popular Bangladeshi rice
+                varieties. We curated a balanced dataset of 15,000 high-quality
+                grain images captured under controlled conditions and evaluated
+                multiple pretrained CNN architectures alongside a lightweight
+                custom model (BDriceNetworkV0). VGG19 achieved the best overall
+                performance (99.73% test accuracy), while the custom model
+                reached 98.60% accuracy with lower computational cost—supporting
+                potential deployment in resource-constrained settings.
               </p>
 
-              <a href="https://github.com/Chowdhurynaseeh/Rice_Grain_Classification_and_detection" target="_blank">Code Section</a> <br>
-              <a href="https://drive.google.com/file/d/1vaH2IHIzT7_mb2pes5edofsRCBhFkZVm/view?usp=sharing" target="_blank">Read Here</a>
+              <div style="margin-top: 10px">
+                <a
+                  href="https://link.springer.com/article/10.1007/s44462-026-00061-9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >SpringerLink Page</a
+                >
+                <br />
+                <a
+                  href="https://link.springer.com/content/pdf/10.1007/s44462-026-00061-9.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Read the PDF</a
+                >
+                <br />
+                <!-- Optional: keep your repo if it matches your paper experiments -->
+                <a
+                  href="https://github.com/Chowdhurynaseeh/Rice_Grain_Classification_and_detection"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Related Code / Experiments (GitHub)</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -82,8 +150,8 @@ Architectures.
     <!-- End #main -->
 
     <!-- Vendor JS Files -->
-    <script async="" src="//www.google-analytics.com/analytics.js"></script>
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
     <script src="../assets/vendor/php-email-form/validate.js"></script>
@@ -106,17 +174,12 @@ Architectures.
               (i[r].q = i[r].q || []).push(arguments);
             }),
             (i[r].l = 1 * new Date());
-          (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+          a = s.createElement(o);
+          m = s.getElementsByTagName(o)[0];
           a.async = 1;
           a.src = g;
           m.parentNode.insertBefore(a, m);
-        })(
-          window,
-          document,
-          "script",
-          "//www.google-analytics.com/analytics.js",
-          "ga"
-        );
+        })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
         ga("create", "UA-55234356-4", "auto");
         ga("send", "pageview");
       }
